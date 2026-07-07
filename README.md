@@ -34,23 +34,40 @@ A full-stack web application for managing products, customers, and orders with r
 
 inventory-app/
 ├── docker-compose.yml
+
 ├── backend/
+
 │   ├── Dockerfile
+
 │   ├── main.py          # All API routes
+
 │   ├── models.py        # Database models
+
 │   ├── schemas.py       # Request/response schemas
+
 │   ├── database.py      # DB connection
+
 │   └── requirements.txt
+
 └── frontend/
     ├── Dockerfile
+    
     ├── nginx.conf
+    
     └── src/
+    
         ├── App.js
+        
         ├── api.js           # API calls
+        
         └── pages/
+        
             ├── Dashboard.jsx
+            
             ├── Products.jsx
+            
             ├── Customers.jsx
+            
             └── Orders.jsx
 
 ---
