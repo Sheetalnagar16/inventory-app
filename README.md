@@ -54,13 +54,3 @@ inventory-app/
             └── Orders.jsx
 
 ---
-
-### Dashboard
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | /dashboard | Get summary stats |
-
----
-
-## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
