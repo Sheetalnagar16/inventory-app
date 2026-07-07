@@ -1,12 +1,12 @@
-# Inventory & Order Management System
+#  Inventory & Order Management System
 
 A full-stack web application for managing products, customers, and orders with real-time inventory tracking.
 
-🌐 **Live Demo:** [Frontend](https://inventory-5riwuvpw9-sheetal-nagars-projects.vercel.app)| [Backend API](https://inventory-app-fx30.onrender.com) | [API Docs](https://inventory-app-fx30.onrender.com/docs)
+🌐 **Live Demo:** [Frontend](https://inventory-5riwuvpw9-sheetal-nagars-projects.vercel.app) | [Backend API](https://inventory-app-fx30.onrender.com) | [API Docs](https://inventory-app-fx30.onrender.com/docs)
 
 ---
 
-## Features
+##  Features
 
 - **Product Management** — Add, update, delete products with SKU tracking and stock levels
 - **Customer Management** — Manage customer records with unique email validation
@@ -17,7 +17,7 @@ A full-stack web application for managing products, customers, and orders with r
 
 ---
 
-## Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -30,44 +30,26 @@ A full-stack web application for managing products, customers, and orders with r
 
 ---
 
-## Project Structure
+##  Project Structure
 
 inventory-app/
 ├── docker-compose.yml
-
 ├── backend/
-
 │   ├── Dockerfile
-
 │   ├── main.py          # All API routes
-
 │   ├── models.py        # Database models
-
 │   ├── schemas.py       # Request/response schemas
-
 │   ├── database.py      # DB connection
-
 │   └── requirements.txt
-
 └── frontend/
     ├── Dockerfile
-    
     ├── nginx.conf
-    
     └── src/
-    
         ├── App.js
-        
         ├── api.js           # API calls
-        
         └── pages/
-        
             ├── Dashboard.jsx
-            
             ├── Products.jsx
-            
             ├── Customers.jsx
-            
             └── Orders.jsx
 
----
